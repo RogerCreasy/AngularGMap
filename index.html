@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html ng-app="golfApp">
+<html ng-app="golfApp" ng-controller="MapCtrl">
+
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <title>Times-News Interactive Golf Map</title>
+    <meta charset="utf-8" />
+    <title>AngularJS Plunker</title>
     <script>
         document.write('<base href="' + document.location + '" />');
     </script>
@@ -17,10 +16,16 @@
     <script src="scripts/testApp.js"></script>
     <script src="scripts/golfControllers.js"></script>
 </head>
+
 <body>
 
-<div nv-view></div>
+<ul>
+    <li><a href="#/home">Home</a></li>
+    <li><a href="#/map">Map</a></li>
+</ul>
 
+<div ng-view></div>
 
 </body>
+
 </html>
