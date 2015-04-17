@@ -29,17 +29,18 @@ golfApp.config(['$routeProvider', function($routeProvider) {
             redirectTo: '/'
         });
 }]);
+
 //create directive for map container
-golfApp.directive('map',function(){
+golfApp.directive('map', function(){
     return {
-        link: function($scope, element) {
+        link: function(scope, element) {
             var mapOptions = {
                 zoom: 11,
                 center: new google.maps.LatLng(36.095580028219, -79.444059371948242),
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             }
 
-            $scope.map = new google.maps.Map(document.getElementById('map'), mapOptions);
+            map = new google.maps.Map(document.getElementById('map'), mapOptions);
         }
     }
 });
