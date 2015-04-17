@@ -1,0 +1,23 @@
+#map {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+.map_container .map{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+.infoWindowContent {
+    /*font-size:  14px !important;
+    border-top: 1px solid #ccc;
+    padding-top: 10px; */
+}
+h2 {
+    margin-bottom:0;
+    margin-top: 0;
+}

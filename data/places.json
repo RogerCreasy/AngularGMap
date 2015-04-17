@@ -1,0 +1,47 @@
+[
+    {
+    "place": "Brookwood Golf Course",
+    "desc": "Placeholder text",
+    "phone": "(336) 449-5544",
+    "Address": "1753 NC-61, Whitsett, NC 27377",
+    "lat": 36.010079,
+    "long": -79.57392,
+    "locationType": "course"
+    },
+    {
+    "place": "Southwick Golf Course",
+    "desc": "Placeholder text",
+    "phone": "(336) 227.2582",
+    "Address": "3136 Southwick Dr, Graham, NC 27253",
+    "lat": 36.005828,
+    "long": -79.36971,
+    "locationType": "course"
+    },
+    {
+    "place": "Times-News",
+    "desc": "Digital marketing solutions for your business",
+    "phone": "(336) 227-0131",
+    "Address": "707 S Main St, Burlington, NC 27215",
+    "lat": 36.091525,
+    "long": -79.440562,
+    "locationType": "biz"
+    },
+    {
+    "place": "Nichols Dodge, Chrysler, Jeep",
+    "desc": "Nichols Dodge Chrysler Jeep in Burlington, NC, also serving Durham, NC and Greensboro, NC is proud to be an automotive leader in our area. Since opening our doors, Nichols Dodge Chrysler Jeep has kept a firm commitment to our customers. We offer a wide selection of vehicles and hope to make the car buying process as quick and hassle free as possible.",
+    "phone": "(336) 229-6901",
+    "Address": "988 Plantation Dr, Burlington, NC 27215",
+    "lat": 36.066026,
+    "long": -79.4316,
+    "locationType": "nichols"
+    },
+    {
+    "place": "Cedarcrest Golf Course",
+    "desc": "The 18-hole Cedarcrest course at the Cedarcrest Golf Course facility in Mc Leansville, North Carolina features 5,515 yards of golf from the longest tees for a par of 70 . The course rating is 66.0 and it has a slope rating of 100 on Bermuda grass.  Designed by Harold Loudermilk, the Cedarcrest golf course opened in 1970. Becky Lowdermilk manages the course as the Owner/General Manager.",
+    "phone": "(336) 697-8251",
+    "Address": "340 Birch Creek Rd, McLeansville, NC 27301",
+    "lat": 36.079325,
+    "long": -79.663798,
+    "locationType": "course"
+    }
+]
