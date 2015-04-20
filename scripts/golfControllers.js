@@ -12,6 +12,14 @@ var golfControllers = angular.module('golfControllers', ['ngSanitize']);
         $http.get('data/places.json').success(function(data) {
             $scope.places = data;
 
+            var mapOptions = {
+                zoom: 11,
+                center: new google.maps.LatLng(36.095580028219, -79.444059371948242),
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+
+            $scope.map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
             $scope.markers = [];
 
             var infoWindow = new google.maps.InfoWindow();
