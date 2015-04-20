@@ -32,6 +32,18 @@ body {
     padding: 1%;
 }
 
+@media (min-width: 992px) {
+.col-md-2 {
+    height: 540px;
+}
+}
+
+@media (min-width: 600px) {
+.col-md-2 {
+    margin-top: 1%;
+}
+}
+
 .infoWindow-sponsor {
     background-color: darkseagreen;
     margin-top: .5%;

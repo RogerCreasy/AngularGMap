@@ -13,15 +13,22 @@
         <h3>Times-News Interactive Golf Map</h3>
         <p>Sponsored by Nichols Dodge Chrysler Jeep</p>
     </div>
-    <div class="col-md-10 map_container">
-        <div id="map"></div>
-    </div>
-    <div class="col-md-2 marker-nav">
-        <div id="class" ng-repeat="marker in markers | orderBy : 'title'">
-            <a href="#" ng-click="openInfoWindow($event, marker)">{{marker.title}}</a><br />
+    <div class="row">
+        <div class="col-md-10 map_container">
+            <div id="map"></div>
         </div>
-        <div id="class">
-            <a href="#" ng-click="restartMap($event)">Reset Map</a>
+        <div class="col-md-2 marker-nav">
+            <div id="class" ng-repeat="marker in markers | orderBy : 'title'">
+                <a href="#" ng-click="openInfoWindow($event, marker)">{{marker.title}}</a><br />
+            </div>
+            <div id="class">
+                <a href="#" ng-click="restartMap($event)">Reset Map</a>
+            </div>
+        </div>
+    </div>
+    <div class="row footer">
+        <div class="col-md-12">
+            Footer Content Here <!-- Todo add footer content -->
         </div>
     </div>
 </div>
