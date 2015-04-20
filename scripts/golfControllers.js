@@ -46,8 +46,9 @@ var golfControllers = angular.module('golfControllers', ['ngSanitize']);
                 marker.content = '<div>' +
                 info.desc +
                 '<br />' +
-                '<a href="tel:+1' + info.phone + '">' + info.phone +
-                '</div>';
+                '<a href="tel:+1' + info.phone + '">' + info.phone + '</a>' +
+                '</div>' +
+                '<div class="infoWindow-sponsor">Interactive map sponsored by: <a href="http://www.nicholsdodge.com/" target="_blank"><img src="img/logoNichols-sm.png" /></a></div>';
 
                 google.maps.event.addListener(marker, 'click', function(){
                     infoWindow.setContent('<h4>' + marker.title + '</h4>' + marker.content);

@@ -32,6 +32,15 @@ body {
     padding: 1%;
 }
 
+.infoWindow-sponsor {
+    background-color: darkseagreen;
+    margin-top: .5%;
+    border-radius: 10px;
+    margin-bottom: 0;
+    padding: .5%;
+    text-align: center;
+}
+
 /* testing */
 html,
 body,
