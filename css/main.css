@@ -2,6 +2,7 @@
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
+    margin-top: .5%;
 }
 .map_container .map{
     position: absolute;
@@ -34,7 +35,7 @@ body {
 
 @media (min-width: 992px) {
 .col-md-2 {
-    height: 540px;
+    height: 520px;
 }
 }
 
@@ -75,4 +76,12 @@ body,
     background-repeat: no-repeat;
     color: white;
     text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.footer {
+    background-color: azure;
+    margin-top: .5%;
+    border-radius: 10px;
+    padding: 1%;
+    text-align: center;
 }
