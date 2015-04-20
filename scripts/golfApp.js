@@ -4,8 +4,8 @@
  */
 
 //Angular App Module and Controller
-angular.module('golfApp', [])
-    .controller('MapCtrl', function ($scope, $http) {
+var golfApp = angular.module('golfApp', []);
+    golfApp.controller('MapCtrl', function ($scope, $http) {
 
         $http.get('data/places.json').success(function(data) {
             $scope.places = data;
